@@ -25,7 +25,6 @@ The run_analysis.R file contains a series of transformations that load, unload, 
 1. tidyData$activity_code = activities[tidyData$activity_code,"activity"] - Recreates the activity_code column to contain the name of the activity instead of the code
 
 **Appropriately labels the data set with descriptive variable names**
-Renames the columns as follows:
 1. Renames the word **subject** in the 1st column as: **Subject**
 2. Renames the word **activity_code** in the 2nd column as: **Activity**
 3. Renames the word **angle** in columns 3 through 88 as: **Angle**
